@@ -65,26 +65,58 @@ This project utilizes a modern, enterprise-grade toolchain.
 Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Platform**:
 
 <details>
-<summary><b>🚀 ArgoCD Application View</b></summary>
+<summary><b>AWS EKS Nodes & K8s CLI (kubectl)</b></summary>
 
-| **Grafana: SRE Dashboard** | **Grafana: Application Metrics** |
+| **AWS EKS Nodes** | **Kubernetes CLI (kubectl)** |
 | :---: | :---: |
-| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/463e3ba5dbf144678cb319141fbd4e45c4fdb2a5/Assets/Grafana%20Dashboard%201.jpeg" alt="Grafana SRE Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/f540c57eacb2ff13bda4487e0f5400b7f9e64edc/Assets/Grafana%20Dashboard%203.jpeg" alt="Grafana Application Metrics" width="auto"/> |
-| *Monitoring cluster health: CPU, Memory, Disk, Network I/O.* | *Tracking app-specific metrics like memory usage and per-pod network traffic.* |
-
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/cb7ca6e60f675aef541281665b6e60f4c2fcaf76/Assets/AWS%20ec2.jpeg" alt="AWS ec2 Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/46b262272f9c0ee3107af8d1406af5bfe3f7fea1/Assets/CLI.png" alt="kubectl view"/> |
+| *The underlying EC2 instances running the Kubernetes worker nodes.* | *Terminal output showing live services and pods running in the cluster.* |
 </details>
 
 ---
 
 <details>
-<summary><b>🚀 ArgoCD Application View</b></summary>
+<summary><b>Jenkins & SonarQube View</b></summary>
 
-| **Grafana: SRE Dashboard** | **Grafana: Application Metrics** |
+| **Jenkins Dashboard** | **SonarQube Dashboard** |
 | :---: | :---: |
-| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/463e3ba5dbf144678cb319141fbd4e45c4fdb2a5/Assets/Grafana%20Dashboard%201.jpeg" alt="Grafana SRE Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/f540c57eacb2ff13bda4487e0f5400b7f9e64edc/Assets/Grafana%20Dashboard%203.jpeg" alt="Grafana Application Metrics" width="auto"/> |
-| *Monitoring cluster health: CPU, Memory, Disk, Network I/O.* | *Tracking app-specific metrics like memory usage and per-pod network traffic.* |
-
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/89c45c3ab9189f9ae3e05e825d4e313d4302c68d/Assets/Jenkins%20Dashboard.jpeg" alt="Jenkins CI / CD Pipelines Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/f359e6bf150b8432de0785a103b45c90f0e8529e/Assets/SonarQube%20Dashboard.jpeg" alt="SonarQube Dashboard" width="auto"/> |
+| *The full CI/CD pipeline, including security scans and deployment triggers.* | *Enforcing code quality and security standards within the CI pipeline.* |
 </details>
+
+---
+
+<details>
+<summary><b>Jenkins CI Pipeline & Stages</b></summary>
+
+| **Jenkins CI Pipeline** | **Jenkins CI Pipeline Stages** |
+| :---: | :---: |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/671646d4dcdef18dac281a27cf1ba6ead3262703/Assets/Jenkins%20CI.jpeg" alt="Jenkins CI Pipeline View" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/c400d78ad6cffc32f9a7f51fa9b3cffca6e28977/Assets/Jenkins%20CI%20Stages.jpeg" alt="Jenkins CI Pipeline Stages View" width="auto"/> |
+| *The full CI pipeline, including security scans and deployment triggers.* | *The full CI pipeline, including all stages.* |
+</details>
+
+---
+
+<details>
+<summary><b>Jenkins CD Pipeline & Stages</b></summary>
+
+| **Jenkins CD Pipeline** | **Jenkins CD Pipeline Stages** |
+| :---: | :---: |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/5b802392c99d25c050d6936038ae9657edd644e9/Assets/Jenkins%20CD.jpeg" alt="Jenkins CD Pipeline View" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/4a9e841aed6ee0fa865e89b9cb69979aef7ca55f/Assets/Jenkins%20CD%20Stages.jpeg" alt="Jenkins CD Pipeline Stages View" width="auto"/> |
+| *The full CD pipeline, including security scans and deployment triggers.* | *The full CD pipeline, including all stages.* |
+</details>
+
+---
+
+<details>
+<summary><b>ArgoCD Application View & Prometheus Targets</b></summary>
+
+| **ArgoCD Application View** | **Prometheus Targets** |
+| :---: | :---: |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/480427bd3d918b360c12998f7e421a069d06744a/Assets/Prometheus%20Dashboard.jpeg" alt="Prometheus Dashboards" width="auto"/> |
+| *Application components are healthy and synced via GitOps.* | *Prometheus successfully scraping metrics from all configured cluster endpoints.* |
+</details>
+
 
 
 </details>
