@@ -60,7 +60,7 @@ This project utilizes a modern, enterprise-grade toolchain.
 *A curated selection of screenshots from the live, running platform.*
 
 <details>
-<summary><b>Click to expand and see the platform in action</b></summary>
+<summary><b> 📌 Click to expand and see the platform in action</b></summary>
 
 Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Platform**:
 
@@ -143,6 +143,7 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 
 </details>
 
+---
 ---
 
 📞 Contact & Further Information
