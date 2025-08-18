@@ -77,11 +77,18 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 ---
 </details>
 
+<details>
+<summary><b>🚀 ArgoCD Application View</b></summary>
 
-| **Jenkins CI/CD Pipeline Stages** |
+| **Grafana: SRE Dashboard** | **Grafana: Application Metrics** |
 | :---: | :---: |
-| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Application View" width="400"/> <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/c0eeb57294e25711d5ce50a622709927a7fc1146/Assets/argocd%20dashboard.jpeg" alt="ArgoCD Application View" width="400"/>|
-|*End-to-end CI/CD pipeline, including code quality, security scans & deployment triggers.* |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/463e3ba5dbf144678cb319141fbd4e45c4fdb2a5/Assets/Grafana%20Dashboard%201.jpeg" alt="Grafana SRE Dashboard" width="400"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/f540c57eacb2ff13bda4487e0f5400b7f9e64edc/Assets/Grafana%20Dashboard%203.jpeg" alt="Grafana Application Metrics" width="400"/> |
+| *Monitoring cluster health: CPU, Memory, Disk, Network I/O.* | *Tracking app-specific metrics like memory usage and per-pod network traffic.* |
+
+---
+</details>
+
+
 
 | **Grafana: SRE Dashboard** | **Grafana: Application Metrics** |
 | :---: | :---: |
