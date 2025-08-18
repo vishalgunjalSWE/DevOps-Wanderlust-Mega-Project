@@ -113,8 +113,30 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 
 | **ArgoCD Application View** | **Prometheus Targets** |
 | :---: | :---: |
-| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Dashboard" width="auto"/> <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/480427bd3d918b360c12998f7e421a069d06744a/Assets/Prometheus%20Dashboard.jpeg" alt="Prometheus Dashboards" width="auto"/> |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Dashboard" width="auto"/> <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/c0eeb57294e25711d5ce50a622709927a7fc1146/Assets/argocd%20dashboard.jpeg" alt="ArgoCD Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/480427bd3d918b360c12998f7e421a069d06744a/Assets/Prometheus%20Dashboard.jpeg" alt="Prometheus Dashboards" width="auto"/> |
 | *Application components are healthy and synced via GitOps.* | *Prometheus successfully scraping metrics from all configured cluster endpoints.* |
+</details>
+
+---
+
+<details>
+<summary><b>Grafan : SRE Dashboard & Cluster Metrics</b></summary>
+
+| **Grafana: SRE Dashboard (Namespace: wanderlust)** | **Grafana: Cluster Metrics (Node Exporter - Cluster)** |
+| :---: | :---: |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/463e3ba5dbf144678cb319141fbd4e45c4fdb2a5/Assets/Grafana%20Dashboard%201.jpeg" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/f540c57eacb2ff13bda4487e0f5400b7f9e64edc/Assets/Grafana%20Dashboard%203.jpeg" alt="Jenkins CD Pipeline Stages View" width="auto"/> |
+| *Provides CPU, Memory, Network, and Storage metrics per namespace/pod. Useful for analyzing app-level resource consumption and performance bottlenecks.* | *Shows overall cluster health including CPU, Memory, Disk IO, and Network utilization. Great for cluster-wide performance visibility.* |
+</details>
+
+---
+
+<details>
+<summary><b>Grafan : Application Metrics & Node Metrics (Node Exporter - AIX)</b></summary>
+
+| **Grafana: Application Metrics (Namespace: argocd)** | **Grafana: Node Metrics (Node Exporter - AIX)** |
+| :---: | :---: |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/6bf6de2d6a6a5bbf3fe9398ea41aaa95015de3d0/Assets/Grafana%20Dashboard%202.jpeg" alt="Grafana View" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/ffdba5e42ad44c66130bf661c419474bcab67c1f/Assets/Grafana%20Dashboard%204.jpeg" alt="Grafana View" width="auto"/> |
+| *Tracks ArgoCD server network performance, bandwidth usage, packet rates, and network reliability. Helps monitor GitOps synchronization health.* | *Provides per-node CPU, Memory, Disk, and Network statistics. Helps drill down into individual node resource utilization.* |
 </details>
 
 
