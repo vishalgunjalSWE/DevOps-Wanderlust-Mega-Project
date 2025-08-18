@@ -66,13 +66,16 @@ This project utilizes a modern, enterprise-grade toolchain.
 
 Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Platform**:
 
-| **🚀 ArgoCD Application View** |
+<details>
+<summary><b>
+| **🚀 ArgoCD Application View** |</b></summary>
 | :---: |
 | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/4a016bdc9656dd1aaed77c50370bc14b610c54c7/Assets/Arch.png" alt="ArgoCD Application View" width="auto"/> 
 <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/4a016bdc9656dd1aaed77c50370bc14b610c54c7/Assets/Arch.png" alt="ArgoCD Application View" width="600"/>|
 | *Application components are healthy and synced via GitOps.* |
 
 ---
+</details>
 
 | **Jenkins CI/CD Pipeline Stages** |
 | :---: | :---: |
