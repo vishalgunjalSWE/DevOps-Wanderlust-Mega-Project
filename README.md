@@ -113,7 +113,7 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 
 | **ArgoCD Application View** | **Prometheus Targets** |
 | :---: | :---: |
-| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/480427bd3d918b360c12998f7e421a069d06744a/Assets/Prometheus%20Dashboard.jpeg" alt="Prometheus Dashboards" width="auto"/> |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Dashboard" width="auto"/> <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/480427bd3d918b360c12998f7e421a069d06744a/Assets/Prometheus%20Dashboard.jpeg" alt="Prometheus Dashboards" width="auto"/> |
 | *Application components are healthy and synced via GitOps.* | *Prometheus successfully scraping metrics from all configured cluster endpoints.* |
 </details>
 
