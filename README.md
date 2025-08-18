@@ -69,17 +69,6 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 <details>
 <summary><b>🚀 ArgoCD Application View</b></summary>
 
-<img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/4a016bdc9656dd1aaed77c50370bc14b610c54c7/Assets/Arch.png" alt="ArgoCD Application View" width="auto"/>  
-<img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/4a016bdc9656dd1aaed77c50370bc14b610c54c7/Assets/Arch.png" alt="ArgoCD Application View" width="600"/>
-
-*Application components are healthy and synced via GitOps.*
-
----
-</details>
-
-<details>
-<summary><b>🚀 ArgoCD Application View</b></summary>
-
 | **Grafana: SRE Dashboard** | **Grafana: Application Metrics** |
 | :---: | :---: |
 | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/463e3ba5dbf144678cb319141fbd4e45c4fdb2a5/Assets/Grafana%20Dashboard%201.jpeg" alt="Grafana SRE Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/f540c57eacb2ff13bda4487e0f5400b7f9e64edc/Assets/Grafana%20Dashboard%203.jpeg" alt="Grafana Application Metrics" width="auto"/> |
@@ -88,22 +77,6 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 ---
 </details>
 
-
-
-| **Grafana: SRE Dashboard** | **Grafana: Application Metrics** |
-| :---: | :---: |
-| <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/main/Assets/Grafana-SRE.png" alt="Grafana SRE Dashboard" width="400"/> | <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/main/Assets/Grafana-App.png" alt="Grafana Application Metrics" width="400"/> |
-| *Monitoring cluster health: CPU, Memory, Disk, Network I/O.* | *Tracking app-specific metrics like memory usage and per-pod network traffic.* |
-
-| **AWS EKS Nodes** | **Kubernetes CLI (kubectl)** |
-| :---: | :---: |
-| <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/main/Assets/EKS-Nodes.png" alt="AWS EKS Nodes" width="400"/> | <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/main/Assets/Kubectl.png" alt="Kubernetes CLI" width="400"/> |
-| *EC2 worker nodes powering the EKS cluster.* | *Live `kubectl` output showing services & pods running in the cluster.* |
-
-| **SonarQube Quality Gate** | **Prometheus Targets** |
-| :---: | :---: |
-| <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/main/Assets/SonarQube.png" alt="SonarQube Quality Gate" width="400"/> | <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/main/Assets/Prometheus.png" alt="Prometheus Targets" width="400"/> |
-| *Code quality, vulnerability checks & security gates.* | *Prometheus scraping metrics from all configured cluster endpoints.* |
 
 </details>
 
