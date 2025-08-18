@@ -68,7 +68,7 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 
 | **ArgoCD Application View** | **Jenkins CI/CD Pipeline Stages** |
 | :---: | :---: |
-| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Application View" width="400"/> | <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/main/Assets/Jenkins-Pipeline.png" alt="Jenkins CI/CD Pipeline Stages" width="400"/> |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Application View" width="400"/> <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/452173f74175c362fab0a148f6eacdad89d97622/Assets/argocd.jpeg" alt="ArgoCD Application View" width="400"/>| <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/main/Assets/Jenkins-Pipeline.png" alt="Jenkins CI/CD Pipeline Stages" width="400"/> |
 | *Application components are healthy and synced via GitOps.* | *End-to-end CI/CD pipeline, including code quality, security scans & deployment triggers.* |
 
 | **Grafana: SRE Dashboard** | **Grafana: Application Metrics** |
