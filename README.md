@@ -3,13 +3,13 @@
 ![CI/CD Pipeline](https://img.shields.io/badge/CI/CD%20Pipeline-Active-4CAF50?style=for-the-badge&logo=jenkins) ![Infrastructure as Code](https://img.shields.io/badge/Infrastructure-Terraform%20(IaC)-5C3EE8?style=for-the-badge&logo=terraform) ![GitOps](https://img.shields.io/badge/GitOps-ArgoCD-EE6191?style=for-the-badge&logo=argo) ![Observability](https://img.shields.io/badge/Observability-Prometheus%20&%20Grafana-E6522C?style=for-the-badge&logo=prometheus) ![Security](https://img.shields.io/badge/Security-DevSecOps-0C5F9C?style=for-the-badge&logo=trivy)
 
 ### Project Overview
-This repository contains a professional-grade, end-to-end platform for deploying a 3-tier MERN application on AWS EKS. The entire lifecycle is automated and secured, from code commit to production monitoring. It integrates a complete DevSecOps CI pipeline, a GitOps CD workflow, and a full-stack SRE observability solution. This project is a demonstration of modern cloud-native best practices.
+This repository documents the architecture and implementation of a professional-grade, end-to-end platform for deploying, securing, and operating a 3-tier MERN application on AWS EKS. The entire lifecycle is automated and secured, from code commit to production monitoring. It integrates a complete **DevSecOps CI pipeline**, a **GitOps CD workflow**, and a full-stack **SRE observability solution**, demonstrating a mastery of modern cloud-native best practices.
 
 ![Preview Image](https://github.com/krishnaacharyaa/wanderlust/assets/116620586/17ba9da6-225f-481d-87c0-5d5a010a9538)
 #
 
 ### ► Live Demo: GitOps in Action
-*A short GIF showcasing the ArgoCD dashboard automatically detecting a change in the Git repository and syncing the application to a healthy state in the Kubernetes cluster.*
+*A short demonstration of the ArgoCD dashboard automatically detecting a change in the Git repository and syncing the application to a healthy state in the Kubernetes cluster.*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/8dcc78b141a1a9150706b3848549b1bb7331b134/Assets/DevSecOps+GitOps.gif" alt="ArgoCD GitOps Demo" width="700"/>
@@ -56,8 +56,8 @@ This project utilizes a modern, enterprise-grade toolchain.
 
 ---
 
-### 🖼️ Proof of Work: System Dashboards & Terminals
-*Screenshots from the live, running platform.*
+### 🖼️ Proof of Work: A Curated Platform Gallery
+*A curated selection of screenshots from the live, running platform.*
 
 <details>
 <summary><b>Click to expand and see the platform in action</b></summary>
@@ -145,16 +145,25 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 
 ---
 
-### 🚀 Setup & Installation
-To reproduce this environment, you will need an AWS account, a GitHub PAT, and a machine to act as the Jenkins master.
+📞 Contact & Further Information
 
-1.  **Provision EKS Cluster:** Use the `eksctl` commands documented in the `/docs` folder to create the EKS cluster and nodegroup.
-2.  **Configure Jenkins Master:** Install Jenkins and the required plugins (`Docker Pipeline`, `SonarQube Scanner`, etc.). Configure credentials for GitHub, Docker Hub, and SonarQube.
-3.  **Setup Worker Nodes:** Configure Jenkins worker nodes with Docker, Trivy, and the necessary IAM permissions.
-4.  **Deploy Tooling:** Install ArgoCD and the Prometheus/Grafana stack into the cluster using the provided Kubernetes manifests/Helm commands.
-5.  **Create Jenkins Pipelines:** Create the CI and CD pipeline jobs in Jenkins, pointing to the `Jenkinsfile` in this repository.
+This project represents a comprehensive, hands-on application of DevSecOps, GitOps, and SRE principles to deliver tangible business outcomes. It serves as a testament to my ability to architect, build, and operate modern cloud-native systems.
 
-*Detailed step-by-step instructions and scripts are available in the `/docs` directory.*
+For further discussion about this project or to explore potential opportunities, please feel free to connect with me.
 
----
+<p align="left"> 
+  <a href="https://www.linkedin.com/in/vishal-gunjal-" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a> 
+  <a href="https://vishalgunjal-cv.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-D14836?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio Badge"/>
+  </a>
+  <a href="https://github.com/vishalgunjalswe" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
+  </a>
+  <a href="https://medium.com/@vishalgunjal0287" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge"/>
+  </a>
+</p>
+
 
