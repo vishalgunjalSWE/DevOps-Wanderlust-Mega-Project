@@ -82,7 +82,7 @@ Below are some key visual insights into the **Wanderlust: DevSecOps & GitOps Pla
 
 | **Grafana: SRE Dashboard** | **Grafana: Application Metrics** |
 | :---: | :---: |
-| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/463e3ba5dbf144678cb319141fbd4e45c4fdb2a5/Assets/Grafana%20Dashboard%201.jpeg" alt="Grafana SRE Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/f540c57eacb2ff13bda4487e0f5400b7f9e64edc/Assets/Grafana%20Dashboard%203.jpeg" alt="Grafana Application Metrics" width="400"/> |
+| <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/463e3ba5dbf144678cb319141fbd4e45c4fdb2a5/Assets/Grafana%20Dashboard%201.jpeg" alt="Grafana SRE Dashboard" width="auto"/> | <img src="https://github.com/vishalgunjalSWE/DevOps-Wanderlust-Mega-Project/blob/f540c57eacb2ff13bda4487e0f5400b7f9e64edc/Assets/Grafana%20Dashboard%203.jpeg" alt="Grafana Application Metrics" width="auto"/> |
 | *Monitoring cluster health: CPU, Memory, Disk, Network I/O.* | *Tracking app-specific metrics like memory usage and per-pod network traffic.* |
 
 ---
